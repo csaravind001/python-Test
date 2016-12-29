@@ -18,7 +18,13 @@ pip install flask==0.10
 Configure the Mongodb 
 	1. Create one database as name Testing
 	2. Create one collection as name email_details
-	3. Create one record for precessing  
+	3. Insert the below json into colletion
+
+	{
+	  "emailId": "gps@surya-soft.com",
+	  "uuid": "fa674442-c513-4b1f-8dce-47f70307143c"
+	}
+
 
 ### Email credentials
 For email notification we need to configure the email credentials on config.py file
