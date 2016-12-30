@@ -42,4 +42,11 @@ Note:
 
 I have used the Cache functionality for saving the time consumption. Every first hit on the corresponding API, fetching the data from database. Second hit onwards API fetching the data from cache. 
 
+
+Performance test:
+Run - python response_testing.py
+response_testing.py file generated following statistics for the response time of each API:
+    1. 10th percentile
+    2. Mean
+    3. Standard Deviation
  
